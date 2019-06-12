@@ -1,0 +1,44 @@
+body {
+    background: #55acee;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 100px;
+}
+h2 {
+    margin-bottom: 30px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button, a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    background: #55acee;
+    margin: 50px auto;
+    width: 300px;
+    padding: 10px;
+    cursor: pointer;
+    border: solid 1px #8cc7f2;
+    text-decoration: none;
+    transition-duration: 1.5s;
+    &:hover {
+        color: #55acee;  
+        background: #fff;
+    }
+}
+
+p {
+    font-size: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+}
